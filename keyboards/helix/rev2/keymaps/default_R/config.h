@@ -22,6 +22,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define CONFIG_USER_H
 
 // place overrides here
+#ifdef AUDIO_ENABLE
+  #define B5_AUDIO
+#endif
 
 // If you need more program area, try select and reduce rgblight modes to use.
 
